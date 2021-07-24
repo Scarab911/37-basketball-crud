@@ -86,8 +86,8 @@ class Basketball {
         console.log(`####################`);
         console.log(`Total games played: ${this.gamesPlayedTotal}`);
 
-        let maxWins = 0;
-        let winnerTeam = '';
+        let maxWins = 0; //skaiciuojam koks didziausias win
+        let winnerTeam = ''; //ir priskiriam tos komandos pavadinima
 
         for (const team of this.teamList) {
             if (team.winsCount > maxWins) {
